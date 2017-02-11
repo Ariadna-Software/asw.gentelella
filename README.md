@@ -1,5 +1,5 @@
 # asw.gentelella
-A web interface (HTML5, Boostrap, Java Script, CSS)  
+A complete web interface (HTML5, Boostrap, Java Script, CSS)  
 An <a href='http://www.ariadnasw.com'>Ariadna Software SL </a> project  
 Under the 
 <a href='https://opensource.org/licenses/MIT'>MIT</a>
