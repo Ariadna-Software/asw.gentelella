@@ -1,0 +1,22 @@
+{
+  "name": "asw.gentelella",
+  "version": "1.0.0",
+  "description": "A web interface ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ariadna-Software/asw.gentelella.git"
+  },
+  "keywords": [
+    "gentelella"
+  ],
+  "author": "Rafael Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ariadna-Software/asw.gentelella/issues"
+  },
+  "homepage": "https://github.com/Ariadna-Software/asw.gentelella#readme"
+}
