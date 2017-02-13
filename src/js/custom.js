@@ -143,6 +143,7 @@ if ($(".progress .progress-bar")[0]) {
 $(document).ready(function() {
     if ($(".js-switch")[0]) {
         var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
+        alert("I'm in document ready");
         elems.forEach(function (html) {
             var switchery = new Switchery(html, {
                 color: '#26B99A'

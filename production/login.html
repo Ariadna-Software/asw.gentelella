@@ -1,103 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- Meta, title, CSS, favicons, etc. -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap -->
-    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <!-- NProgress -->
-    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
-    <!-- Animate.css -->
-    <link href="../vendors/animate.css/animate.min.css" rel="stylesheet">
+  <title>ASW Gentelella</title>
 
-    <!-- Custom Theme Style -->
-    <link href="../build/css/custom.min.css" rel="stylesheet">
-  </head>
+  <!-- Bootstrap -->
+  <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- NProgress -->
+  <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link href="../vendors/animate.css/animate.min.css" rel="stylesheet">
 
-  <body class="login">
-    <div>
-      <a class="hiddenanchor" id="signup"></a>
-      <a class="hiddenanchor" id="signin"></a>
+  <!-- Custom Theme Style -->
+  <link href="../build/css/custom.min.css" rel="stylesheet">
+  <link href="css/ariadna.css" rel="stylesheet">
+</head>
 
-      <div class="login_wrapper">
-        <div class="animate form login_form">
-          <section class="login_content">
-            <form>
-              <h1>Login Form</h1>
-              <div>
-                <input type="text" class="form-control" placeholder="Username" required="" />
-              </div>
-              <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
-              </div>
-              <div>
-                <a class="btn btn-default submit" href="index.html">Log in</a>
-                <a class="reset_pass" href="#">Lost your password?</a>
-              </div>
+<body class="login I18N">
+  <div style="background-image:url(img/fondo.jpg); background-size:cover;background-repeat: no-repeat;background-position: center center;">
+    <a class="hiddenanchor" id="signup"></a>
+    <a class="hiddenanchor" id="signin"></a>
 
-              <div class="clearfix"></div>
+    <div class="login_wrapper">
+      <div class="animate form login_form">
+        <section class="login_content">
+          <form>
+            <h1 data-i18n="app_titulo">Login Form</h1>
+            <h2 data-i18n="app_descripcion">Login Form 2</h2>
+            <div>
+              <input type="text" class="form-control" data-i18n="[placeholder]login.login" placeholder="Username" required="" />
+            </div>
+            <div>
+              <input type="password" class="form-control" data-i18n="[placeholder]login.password" placeholder="Password" required="" />
+            </div>
+            <div>
+              <a class="btn btn-default submit" href="index.html" data-i18n="login.btnLogin">Log in</a>
+              <a class="reset_pass" href="#" data-i18n="login.olvido">Lost your password?</a>
+            </div>
 
-              <div class="separator">
-                <p class="change_link">New to site?
-                  <a href="#signup" class="to_register"> Create Account </a>
-                </p>
+            <div class="clearfix"></div>
 
-                <div class="clearfix"></div>
-                <br />
-
-                <div>
-                  <h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
-                  <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
-                </div>
-              </div>
-            </form>
-          </section>
-        </div>
-
-        <div id="register" class="animate form registration_form">
-          <section class="login_content">
-            <form>
-              <h1>Create Account</h1>
-              <div>
-                <input type="text" class="form-control" placeholder="Username" required="" />
-              </div>
-              <div>
-                <input type="email" class="form-control" placeholder="Email" required="" />
-              </div>
-              <div>
-                <input type="password" class="form-control" placeholder="Password" required="" />
-              </div>
-              <div>
-                <a class="btn btn-default submit" href="index.html">Submit</a>
-              </div>
+            <div class="separator">
 
               <div class="clearfix"></div>
+              <br />
 
-              <div class="separator">
-                <p class="change_link">Already a member ?
-                  <a href="#signin" class="to_register"> Log in </a>
-                </p>
-
-                <div class="clearfix"></div>
-                <br />
-
-                <div>
-                  <h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
-                  <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
-                </div>
+              <div>
+                <h1><span data-i18n="empresa">EMpresa</span></h1>
+                <p data-i18n="copyright">(C) Ariadna</p>
               </div>
-            </form>
-          </section>
-        </div>
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <div id="register" class="animate form registration_form">
+        <section class="login_content">
+          <form>
+            <h1>Create Account</h1>
+            <div>
+              <input type="text" class="form-control" placeholder="Username" required="" />
+            </div>
+            <div>
+              <input type="email" class="form-control" placeholder="Email" required="" />
+            </div>
+            <div>
+              <input type="password" class="form-control" placeholder="Password" required="" />
+            </div>
+            <div>
+              <a class="btn btn-default submit" href="index.html">Submit</a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="separator">
+              <p class="change_link">Already a member ?
+                <a href="#signin" class="to_register"> Log in </a>
+              </p>
+
+              <div class="clearfix"></div>
+              <br />
+
+              <div>
+                <h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
+                <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+              </div>
+            </div>
+          </form>
+        </section>
       </div>
     </div>
-  </body>
+  </div>
+  <!--================================================== -->
+  <!-- PACE LOADER -->
+  <script src="../vendors/ariadna/plugin/pace/pace.min.js"></script>
+  <!-- JQUERY -->
+  <script src="../vendors/ariadna/libs/jquery/jquery-2.1.1.min.js"></script>
+  <script src="../vendors/ariadna/libs/jquery/jquery-ui-1.10.3.min.js"></script>
+  <script src="../vendors/ariadna/plugin/jquery-validate/jquery.validate.min.js"></script>
+  <script src="../vendors/ariadna/plugin/masked-input/jquery.maskedinput.min.js"></script>
+  <!-- Otras librerias necesarias -->
+  <script src="../vendors/ariadna/libs/bootstrap/bootstrap.min.js"></script>
+  <script src="../vendors/ariadna/libs/sprintf/sprintf.min.js"></script>
+  <script src="../vendors/ariadna/libs/numeral/numeral.js"></script>
+  <script src="../vendors/ariadna/libs/knockout/knockout-3.1.0.js"></script>
+  <script src="../vendors/ariadna/libs/moment/moment.js"></script>
+  <script src="../vendors/ariadna/libs/notification/SmartNotification.min.js"></script>
+  <!-- Idiomas -->
+  <script src="../vendors/ariadna/libs/i18next/i18next-1.9.0.js"></script>
+  <script src="locales/validator-languages.js"></script>
+  <script src="locales/datepicker-languages.js"></script>
+  <script src="locales/datatable-languages.js"></script>
+  <script src="locales/select2-languages.js"></script>
+  <script src="locales/numeral-languages.js"></script>
+
+  <!-- Configuraciones -->
+  <script src="config/myconfig.js"></script>
+  <script src="../vendors/ariadna/app/comun.js"></script>
+  <!-- Funciones propias comunes [conservar el orden] -->
+  <script src="../vendors/ariadna/comun/comun.idiomas.js"></script>
+  <script src="../vendors/ariadna/comun/comun.notificaciones.js"></script>
+  <script src="../vendors/ariadna/comun/comun.ajax.js"></script>
+  <script src="../vendors/ariadna/comun/comun.general.js"></script>
+  <!-- Funciones propias de esta página -->
+  <script src="../vendors/ariadna/app/login.js"></script>
+  <script type="text/javascript">
+      (function ($) {
+        $(document).ready(function () {
+          apiPaginaLogin.ini();
+        });
+      })(jQuery);
+    </script>
+</body>
+
 </html>
